@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void callLogin(View view){
-        loginPanel.setVisibility(View.GONE);
+       
         String username = usernameInput.getText().toString();
         String password = passwordInput.getText().toString();
 
