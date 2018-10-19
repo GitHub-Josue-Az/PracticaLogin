@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         String username = usernameInput.getText().toString();
         String password = passwordInput.getText().toString();
 
-
+        // gg contigo
         //LLENAR LOS DATOS SINO ERROR
         if(username.isEmpty() || password.isEmpty()){
             Toast.makeText(this, "Completa los campos iama", Toast.LENGTH_SHORT).show();
