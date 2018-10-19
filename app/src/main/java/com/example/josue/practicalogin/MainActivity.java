@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void callLogin(View view){
-        loginPanel.setVisibility(View.GONE);
+        //loginPanel.setVisibility(View.GONE);
         String username = usernameInput.getText().toString();
         String password = passwordInput.getText().toString();
 
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Completa los campos iama", Toast.LENGTH_SHORT).show();
             return;
         }
-        /*// Login logic
+        // Login logic
         User user = UserRepository.log(username, password);
         if(user == null){
             Toast.makeText(this, "Estas mal xd", Toast.LENGTH_SHORT).show();
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 .putBoolean("islogged", true)
                 .commit();
         // Go to Dashboard
-        goDashboard();*/
+        goDashboard();
     }
 
     private void goDashboard(){
